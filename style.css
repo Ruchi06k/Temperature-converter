@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'monospace', sans-serif;
+    font-weight: bold;
+    color: lightpink;
+    background-image: url("Temperature.jpg");
+}
+
+.container{
+    background: linear-gradient(to left bottom, pink, purple);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+    width: 85%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    color: black;
+    font-size: 32px;
+}
+
+.temp-container {
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input{
+    width: 200px;
+    font-family: monospace;
+    float: right;
+    padding: 5px;
+    outline: none;
+    background: rgba(255,255,255,0.3);
+    border-color: rgba(255,255,255,0.6);
+    font-size: 18px;
+}
+
+input::placeholder{
+    color: white;
+    
+}
+
+label{
+    color: black;
+}
+
